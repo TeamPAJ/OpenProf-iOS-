@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="17709" systemVersion="20C69" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Cards" representedClassName="Cards" syncable="YES" codeGenerationType="class">
+        <attribute name="gaillard" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="goguey" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="gogueyToty" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="maarouf" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="muridi" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="nbgaillard" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="nbgoguey" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="nbgogueyToty" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="nbmaarouf" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="nbmuridi" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="nbsalaun" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="paj" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="salaun" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="Delai" representedClassName="Delai" syncable="YES" codeGenerationType="class">
+        <attribute name="decompte" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="User" representedClassName="User" syncable="YES" codeGenerationType="class">
+        <attribute name="easterEggActivate1" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="money" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="pseudo" optional="YES" attributeType="String"/>
+        <attribute name="pseudoEntree" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+    </entity>
+    <elements>
+        <element name="Cards" positionX="-63" positionY="9" width="128" height="224"/>
+        <element name="Delai" positionX="-63" positionY="45" width="128" height="44"/>
+        <element name="User" positionX="-63" positionY="-18" width="128" height="89"/>
+    </elements>
+</model>
