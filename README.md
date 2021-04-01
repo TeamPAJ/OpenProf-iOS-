@@ -1,5 +1,6 @@
 # OpenProf-iOS-
 
+<img width="114" alt="Capture d’écran 2021-04-01 à 22 11 48" src="https://user-images.githubusercontent.com/73397915/113351930-e0df0d80-933b-11eb-9798-eafd31df5232.png">
 Documentation officielle de l'application OpenProf
 
 SOMMAIRE :
