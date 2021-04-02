@@ -15,17 +15,17 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Capture d’écran 2021-04-01 à 22.36.49" translatesAutoresizingMaskIntoConstraints="NO" id="Bt9-et-Vsu">
-                                <rect key="frame" x="56" y="338" width="302" height="220"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="openprofLogo" highlightedImage="openprofLogo" translatesAutoresizingMaskIntoConstraints="NO" id="S8G-CE-t7V">
+                                <rect key="frame" x="59" y="331" width="297" height="234"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="Bt9-et-Vsu" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="2x9-PX-zYM"/>
-                            <constraint firstItem="Bt9-et-Vsu" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="294" id="6Yu-w8-rgq"/>
-                            <constraint firstItem="Bt9-et-Vsu" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="56" id="Of7-oP-4t1"/>
-                            <constraint firstItem="Bt9-et-Vsu" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="cUn-nV-jAc"/>
+                            <constraint firstItem="S8G-CE-t7V" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="59" id="2hW-Vo-ROS"/>
+                            <constraint firstItem="S8G-CE-t7V" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" constant="0.5" id="5Hx-KF-ZlN"/>
+                            <constraint firstItem="S8G-CE-t7V" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="B5A-Ej-SID"/>
+                            <constraint firstItem="S8G-CE-t7V" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="287" id="Fl2-Qf-03P"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -35,6 +35,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Capture d’écran 2021-04-01 à 22.36.49" width="96" height="78"/>
+        <image name="openprofLogo" width="1146" height="790"/>
     </resources>
 </document>

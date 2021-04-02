@@ -12,6 +12,7 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
     @IBOutlet weak var pseudo : UITextField!
     @IBOutlet weak var playButton : UIButton!
     @IBOutlet weak var settingsButton : UIButton!
+    @IBOutlet weak var pseudoLabelLink : UILabel!
     //@IBOutlet weak var textfield : UITextField!
     
     
@@ -98,7 +99,8 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
                 for r in results as! [NSManagedObject]{
                     if r.value(forKey: "pseudoEntree") as? Bool == true{
                         self.pseudo.isHidden = true
-                        print(r.value(forKey: "pseudo") as! String)
+                        self.pseudoLabelLink.isHidden = true
+                        //print(r.value(forKey: "pseudo") as! String)
                     }
                     
                 }

@@ -12,6 +12,7 @@
 		6619307026165CAD00C1CB4C /* OpenProf.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 66231D2225EADDE600FC70A6 /* OpenProf.xcdatamodeld */; };
 		66231D2925EADF4A00FC70A6 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66231D2825EADF4A00FC70A6 /* LoginViewController.swift */; };
 		6629C60626060920007859A7 /* ProfilViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6629C60526060920007859A7 /* ProfilViewController.swift */; };
+		6665ACDE2617AAB000688AF2 /* LaunchScreenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6665ACDD2617AAB000688AF2 /* LaunchScreenController.swift */; };
 		6680263125D71AB80095B378 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6680263025D71AB80095B378 /* AppDelegate.swift */; };
 		6680263325D71AB80095B378 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6680263225D71AB80095B378 /* SceneDelegate.swift */; };
 		6680263525D71AB80095B378 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6680263425D71AB80095B378 /* ViewController.swift */; };
@@ -48,6 +49,7 @@
 		66231D2825EADF4A00FC70A6 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		6629C60526060920007859A7 /* ProfilViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilViewController.swift; sourceTree = "<group>"; };
 		66559B3925F7FA33008D92E4 /* YouBlockhead.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = YouBlockhead.ttf; sourceTree = "<group>"; };
+		6665ACDD2617AAB000688AF2 /* LaunchScreenController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreenController.swift; sourceTree = "<group>"; };
 		6680262D25D71AB80095B378 /* OpenProf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenProf.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6680263025D71AB80095B378 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6680263225D71AB80095B378 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -133,6 +135,7 @@
 				669961D625F758C900386B6B /* PAJViewController.swift */,
 				669F6E102602024C0031917C /* SaleViewController.swift */,
 				6629C60526060920007859A7 /* ProfilViewController.swift */,
+				6665ACDD2617AAB000688AF2 /* LaunchScreenController.swift */,
 			);
 			path = OpenProf;
 			sourceTree = "<group>";
@@ -292,6 +295,7 @@
 				6680266425D7D0700095B378 /* StoreViewController.swift in Sources */,
 				6680263525D71AB80095B378 /* ViewController.swift in Sources */,
 				669F6E112602024C0031917C /* SaleViewController.swift in Sources */,
+				6665ACDE2617AAB000688AF2 /* LaunchScreenController.swift in Sources */,
 				6680266925D7D0920095B378 /* CardsViewController.swift in Sources */,
 				66231D2925EADF4A00FC70A6 /* LoginViewController.swift in Sources */,
 				66EF9D7B25EBE9EB0023E948 /* MenuBarViewController.swift in Sources */,
