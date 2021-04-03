@@ -11,11 +11,17 @@ import CoreData
 class StoreViewController: UIViewController {
 
     @IBOutlet weak var obtenirMoney : UIButton!
+    @IBOutlet weak var gemFreex100 : UIImageView!
+    @IBOutlet weak var gemFreex100Label : UILabel!
+    @IBOutlet weak var loadingGem : UIActivityIndicatorView!
+    @IBOutlet weak var pseudo : UILabel!
+    @IBOutlet weak var gem : UILabel!
+    
     let timeEnd = NSDate(timeInterval: 1*2*60, since: NSDate() as Date)
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        self.loadingGem.isHidden = true
         // Do any additional setup after loading the view.
     }
     
@@ -62,6 +68,8 @@ class StoreViewController: UIViewController {
         super.viewWillAppear(animated)
         let appDelegate = UIApplication.shared.delegate as! AppDelegate
         let context = appDelegate.persistentContainer.viewContext
+        self.linkMoney()
+        self.linkPseudo()
         do{
             try context.save()
         }catch{
@@ -100,12 +108,58 @@ class StoreViewController: UIViewController {
                 self.obtenirMoney.setTitle(String(timeLeft), for: .normal)
                 self.obtenirMoney.isOpaque = true
                 self.obtenirMoney.isEnabled = false
+                self.gemFreex100.isHidden = true
+                self.gemFreex100Label.text = ""
+                self.loadingGem.isHidden = false
+                self.loadingGem.startAnimating()
             } else {
                 timer.invalidate()
-                self.obtenirMoney.setTitle("", for: .normal)
+                self.obtenirMoney.setTitle("Gratuit", for: .normal)
                 self.obtenirMoney.isOpaque = false
                 self.obtenirMoney.isEnabled = true
+                self.gemFreex100Label.text = "x100"
+                self.gemFreex100.image = UIImage(named: "gem.png")
+                self.gemFreex100.isHidden = false
+                self.loadingGem.isHidden = true
             }
+        }
+    }
+    
+    public func linkPseudo(){
+        let appDelegate = UIApplication.shared.delegate as! AppDelegate
+        let context = appDelegate.persistentContainer.viewContext
+        let request = NSFetchRequest<NSFetchRequestResult>(entityName: "User")
+        request.returnsObjectsAsFaults = false
+        do{
+            let results = try context.fetch(request)
+            if(results.count > 0){
+                if let r = results.first as? NSManagedObject{
+                    if r.value(forKey: "pseudoEntree") as? Bool == true{
+                        ///let userPseudo = NSEntityDescription.insertNewObject(forEntityName: "User", into: context)
+                        self.pseudo.text = r.value(forKey: "pseudo") as? String
+                        //print(r.value(forKey: "pseudo") as! String)
+                    }
+                }
+            }
+        }catch{
+            print("Error Core Data")
+        }
+    }
+    
+    public func linkMoney(){
+        let appDelegate = UIApplication.shared.delegate as! AppDelegate
+        let context = appDelegate.persistentContainer.viewContext
+        let request = NSFetchRequest<NSFetchRequestResult>(entityName: "User")
+        request.returnsObjectsAsFaults = false
+        do{
+            let resultsGem = try context.fetch(request)
+            if(resultsGem.count > 0){
+                if let gem = resultsGem.first as? NSManagedObject{
+                    self.gem.text = String(gem.value(forKey: "money") as! Int)
+                }
+            }
+        }catch{
+            print("erreur lors de la récupération du nombre de gems")
         }
     }
 

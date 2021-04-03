@@ -48,7 +48,7 @@ class CardsViewController: UIViewController, UITabBarControllerDelegate {
                             if ((r.value(forKey: "nbgaillard") as? Int) != nil){
                                 let nb = r.value(forKey: "nbgaillard") as! Int
                                 let nombreGaillard = String(r.value(forKey: "nbgaillard") as! Int)
-                                self.gaillardNbLabel.text = "x" + nombreGaillard
+                                self.gaillardNbLabel.text = nombreGaillard
                                 cardSave.setValue(nb, forKey: "nbgaillard")
                             }
                         }
@@ -57,7 +57,7 @@ class CardsViewController: UIViewController, UITabBarControllerDelegate {
                             if ((r.value(forKey: "nbgoguey") as? Int) != nil){
                                 let nb = r.value(forKey: "nbgoguey") as! Int
                                 let nombreGoguey = String(r.value(forKey: "nbgoguey") as! Int)
-                                self.gogueyNbLabel.text = "x" + nombreGoguey
+                                self.gogueyNbLabel.text = nombreGoguey
                                 cardSave.setValue(nb, forKey: "nbgoguey")
                             }
                         }
@@ -66,7 +66,7 @@ class CardsViewController: UIViewController, UITabBarControllerDelegate {
                             if ((r.value(forKey: "nbmuridi") as? Int) != nil){
                                 let nb = r.value(forKey: "nbmuridi") as! Int
                                 let nombreMuridi = String(r.value(forKey: "nbmuridi") as! Int)
-                                self.muridiNbLabel.text = "x" + nombreMuridi
+                                self.muridiNbLabel.text = nombreMuridi
                                 cardSave.setValue(nb, forKey: "nbmuridi")
                             }
                             
@@ -76,7 +76,7 @@ class CardsViewController: UIViewController, UITabBarControllerDelegate {
                             if ((r.value(forKey: "nbsalaun") as? Int) != nil){
                                 let nb = r.value(forKey: "nbsalaun") as! Int
                                 let nombreSalaun = String(r.value(forKey: "nbsalaun") as! Int)
-                                self.salaunNbLabel.text = "x" + nombreSalaun
+                                self.salaunNbLabel.text = nombreSalaun
                                 cardSave.setValue(nb, forKey: "nbsalaun")
                             }
                             
@@ -86,7 +86,7 @@ class CardsViewController: UIViewController, UITabBarControllerDelegate {
                             if ((r.value(forKey: "nbmaarouf") as? Int) != nil){
                                 let nb = r.value(forKey: "nbmaarouf") as! Int
                                 let nombreMaarouf = String(r.value(forKey: "nbmaarouf") as! Int)
-                                self.maaroufNbLabel.text = "x" + nombreMaarouf
+                                self.maaroufNbLabel.text = nombreMaarouf
                                 cardSave.setValue(nb, forKey: "nbmaarouf")
                             }
                             
@@ -96,7 +96,7 @@ class CardsViewController: UIViewController, UITabBarControllerDelegate {
                             if ((r.value(forKey: "nbgogueyToty") as? Int) != nil){
                                 let nb = r.value(forKey: "nbgogueyToty") as! Int
                                 let nombreGogueyToty = String(r.value(forKey: "nbgogueyToty") as! Int)
-                                self.gogueyTotyNbLabel.text = "x" + nombreGogueyToty
+                                self.gogueyTotyNbLabel.text = nombreGogueyToty
                                 cardSave.setValue(nb, forKey: "nbgogueyToty")
                             }
                             

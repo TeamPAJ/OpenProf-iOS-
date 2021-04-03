@@ -16,7 +16,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var caisseBouton : UIButton!
     @IBOutlet weak var obtenirCarte : UIButton!
     @IBOutlet weak var pseudo : UILabel!
-    @IBOutlet weak var chargementBouton : UIActivityIndicatorView!
+    //@IBOutlet weak var chargementBouton : UIActivityIndicatorView!
     
     public var gaillardObtenu : Bool!
     public var maaroufObtenu : Bool!
@@ -42,7 +42,7 @@ class ViewController: UIViewController {
         self.pseudo?.textColor = UIColor.darkGray
         //self.linkPseudo()
         //self.easterEgg1()
-        self.chargementBouton.isHidden = true
+        //self.chargementBouton.isHidden = true
         //Core data base var
         let appDelegate = UIApplication.shared.delegate as! AppDelegate
         let context = appDelegate.persistentContainer.viewContext
@@ -289,8 +289,8 @@ class ViewController: UIViewController {
     @IBAction func getCarte(_ sender: UIButton){
         //print("Carte obtenue ! ")
         self.obtenirCarte.isHidden = true
-        self.chargementBouton.startAnimating()
-        self.perform(#selector(ViewController.RefineButtonPress), with: nil, afterDelay: 3.0)
+        //self.chargementBouton.startAnimating()
+        //self.perform(#selector(ViewController.RefineButtonPress), with: nil, afterDelay: 3.0)
         if(self.obtenirCarte.title(for: .normal) == "Boutique"){
             self.obtenirCarte.isHidden = false
             //print("Aller à la boutique")
@@ -501,10 +501,10 @@ class ViewController: UIViewController {
         }
     }
     
-    @objc public func RefineButtonPress() {
-        self.chargementBouton.stopAnimating()
-        self.chargementBouton.isHidden = true
-    }
+    //@objc public func RefineButtonPress() {
+        //self.chargementBouton.stopAnimating()
+        //self.chargementBouton.isHidden = true
+    //}
     
     @objc public func RefineButtonText() {
         self.obtenirCarte.setTitle("Obtenue", for: .normal)
