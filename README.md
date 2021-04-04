@@ -126,12 +126,12 @@ Comme expliqué précédemment, l'utilisateur a le choix entre garder (avec le b
 
 
 <h1>Patchs et bugs</h1>
-Il sera très probable que, lors de l'utilisation de l'application, vous rencontriez des bugs.
-Tout au long du développement de l'application, notre équipe développement (on est deux zbi) a établie une liste de bugs
+Il sera possible que, lors de l'utilisation de l'application, vous rencontriez un ou plusieurs bugs.
+Tout au long du développement de l'application, nous avons établie une liste de bugs
 en fonction de leur probabilité d'apparation : 
 
-   - Erreur mémoire [Peu probable] : enregistrement de l'état de sauvegarde ; nb de cartes, de gemmes, etc... (Core Data de l'app)
-   - Erreur logicielle [Probable] : compteur de gems freeze, boutique qui charge infiniment, niveau de l'utilisateur qui freeze.
+   - Erreur mémoire [Très Peu probable] : enregistrement de l'état de sauvegarde ; nb de cartes, de gemmes, etc... (Core Data de l'app)
+   - Erreur logicielle [Peu Probable] : compteur de gems freeze, boutique qui charge infiniment, niveau de l'utilisateur qui freeze.
 
 Certains patchs ont été effectués afin de corriger un bon nombre de bugs liés à la sauvegarde du jeu. D'autres patchs visaient à ajouter des fonctionnalités sans impacter le système de sauvegarde.
 
