@@ -62,20 +62,31 @@ Il appuie ensuite sur Jouer pour commencer le jeu.<br>
 
 
 ÉTAPE 4 : L'utilisateur arrive tout d'abord sur la boutique du jeu. C'est normal ! En effet, il a l'occasion de récupérer 100 gems gratuites afin de pouvoir ouvrir les caisses (l'utilisateur commence au départ à 0 gems, cette caisse gratuite est donc indispensable !)
-En cliquant sur le coffre, l'utilisateur obtient les gems gratuits qui s'ajoutent automatiquement (tout en se sauvegardant) à son inventaire de gems.<br>
+En cliquant sur le bouton "Gratuit", l'utilisateur obtient les gems gratuits qui s'ajoutent automatiquement (tout en se sauvegardant) à son inventaire de gems.<br>
+<img width="210" alt="Capture d’écran 2021-04-04 à 14 13 59" src="https://user-images.githubusercontent.com/73397915/113508373-02184780-9550-11eb-9d5b-184acf4d91a7.png">.    <img width="210" alt="Capture d’écran 2021-04-04 à 14 14 54" src="https://user-images.githubusercontent.com/73397915/113508410-23793380-9550-11eb-97bd-864116b18280.png">
 
-ÉTAPE 5 : Après être passé par la boutique, il va arriver sur la page "principale" de l'application OpenProf. En effet, c'est ici qu'on retrouve les principales informations : nom d'utilisateur, nombre de gems, carte obtenue après avoir cliquée sur la caisse, système d'obtention de carte avec sauvegarde. C'est donc ici que l'opening ( = ouverture) de coffres va se faire. Pour info, 1 coffre =  2gems consommés. À chaque clic sur la caisse, un algorithme de probabilité est lancé pour déterminer la récompense du joueur. <b>Plus la carte est rare, plus le joueur gagne de l'XP</b><br>
-<img width="210" alt="Capture d’écran 2021-04-03 à 00 00 37" src="https://user-images.githubusercontent.com/73397915/113457628-9085af80-9410-11eb-9845-7bf1fa683bf9.png"><br>
+
+
+ÉTAPE 5 : Après être passé par la boutique, il va arriver sur la page "principale" de l'application OpenProf. En effet, c'est ici qu'on retrouve les principales informations : nom d'utilisateur, nombre de gems, carte obtenue après avoir cliquée sur la caisse, système d'obtention de carte avec sauvegarde. C'est donc ici que l'opening ( = ouverture) de coffres va se faire. Pour info, 1 coffre =  2gems consommés. À chaque clic sur la caisse, un algorithme de probabilité est lancé pour déterminer la récompense du joueur. <b>Plus la carte est rare, plus le joueur gagne de l'XP</b>
+<h3>Le coffre côute 2 gems, et, à chaque ouverture de coffre, si l'utilisateur décide de garder la carte (avec le bouton "Obtenir"), il gagne de l'XP, suivant la rareté de la carte !</h3>
+<br>
+<img width="210" alt="Capture d’écran 2021-04-04 à 14 18 43" src="https://user-images.githubusercontent.com/73397915/113508504-ad290100-9550-11eb-97d9-7c34e861fa93.png">
+<br>
 
 Dès que l'utilisateur n'a plus de gems, le bouton Obtenir devient automatiquement un bouton "Boutique" et l'achat de coffre devient impossible.<br>
 <img width="210" alt="Capture d’écran 2021-04-03 à 00 08 31" src="https://user-images.githubusercontent.com/73397915/113457702-bf038a80-9410-11eb-9ae4-0a812ecded4a.png"><br>
 
-ÉTAPE 6 :
+ÉTAPE 6 : La page Profil est disponible en cliquant sur la médaille (en haut à gauche sur la vue Accueil).
+Cette page permet à l'utilisateur de garder un oeil sur son niveau.!<br>
+<img width="210" alt="Capture d’écran 2021-04-04 à 14 27 38" src="https://user-images.githubusercontent.com/73397915/113508736-ea41c300-9551-11eb-8bcf-3015f8113db2.png"><br>
+
+
 
 
 
 <h1>Les cartes</h1>
 Voici donc pour l'instant les cartes disponibles dans le jeu : <br>
+
 <p><img alt="" src="https://user-images.githubusercontent.com/73397915/113458180-e4dd5f00-9411-11eb-9e9c-da6ff2fd47b8.png" width="80">
 <img alt="" src="https://user-images.githubusercontent.com/73397915/113458210-ee66c700-9411-11eb-8ed2-abf43cc48d61.png" width="80">
 <img alt="" src="https://user-images.githubusercontent.com/73397915/113458433-8369c000-9412-11eb-84e2-f28e915600ae.png" width="80">
@@ -83,11 +94,15 @@ Voici donc pour l'instant les cartes disponibles dans le jeu : <br>
 <img alt="" src="https://user-images.githubusercontent.com/73397915/113458223-f888c580-9411-11eb-9115-f139f33755cd.png" width="80">
 <img alt="" src="https://user-images.githubusercontent.com/73397915/113458229-fc1c4c80-9411-11eb-8362-21efb2287404.png" width="80"></p>
 
+<h1>Collection de cartes</h1>
+Comme expliqué précédemment, l'utilisateur a le choix entre garder (avec le bouton "Obtenir") ou laisser (en cliquant une nouvelle fois sur le coffre) la carte ouverte. S'il la garde, il augmente automoatiquement sa collection de cartes.<br>
+<img width="210" alt="Capture d’écran 2021-04-04 à 14 36 40" src="https://user-images.githubusercontent.com/73397915/113508946-2d506600-9553-11eb-9e33-6a0470dc7da3.png"><br>
+
+<h1>Easter Egg</h1>
+<p>Parmi les différentes fonctionnalités, certaines restent encore inconnues, avec des cartes secrètes. À vous de trouver un moyen de les débloquer !</p>
 
 
 <h1>Patchs et bugs</h1>
-
-
 Il sera très probable que, lors de l'utilisation de l'application, vous rencontriez des bugs.
 Tout au long du développement de l'application, notre équipe développement (on est deux zbi) a établie une liste de bugs
 en fonction de leur probabilité d'apparation : 
