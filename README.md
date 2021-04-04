@@ -9,6 +9,7 @@ SOMMAIRE :
      - Prérequis 
      - Installation
      - <b>L'application</b>
+     - <b>Pour les développeurs</b>
      - Les cartes
      - Patchs et bugs
 
@@ -43,7 +44,7 @@ Pour cela, il suffira de se rendre dans la branche user-OpenProf afin de télech
 Pour les développeurs, la branche dev-OpenProf contient l'ensemble des fichiers sources pour lancer OpenProf sur XCode
 
 
-<h1> Les fonctionnalités </h1>
+<h1>L'application</h1>
 Voici donc une présentation plus précise de l'application, étape par étape, pour l'utilisation de l'application par un 
 nouvel utilisateur : 
 
@@ -81,8 +82,30 @@ Cette page permet à l'utilisateur de garder un oeil sur son niveau.!<br>
 <img width="210" alt="Capture d’écran 2021-04-04 à 14 27 38" src="https://user-images.githubusercontent.com/73397915/113508736-ea41c300-9551-11eb-8bcf-3015f8113db2.png"><br>
 
 
+<h1>Pour les développeurs</h1>
+Vous êtes développeurs, et vous aimeriez comprendre la structure de l'application ? Voici un condensé de ce qu'il faut savoir : 
+- Comment a été programmé OpenProf ?
+OpenProf a été programmé en Swift (langage de programmation de la firme Apple) à l'aide de l'IDE spécialisé en programmation iOS Xcode.
+
+- À quoi correspondent les fichiers présents dans le Git ?
+Chaque fichier joue un rôle primordial dans le bon fonctionnement de l'application : 
+--> Premièrement le dossier <b>Base.lprof</b> contient les fichiers qui servent à faire le "visuel de l'application", ils ont l'extension <b>.storyboard</b>
+Il n'y en a que deux : <u>Main.storyboard</u> qui contient tous les visuels des vues présentes dans l'application (Boutique, Accueil, Profil, etc). Le deuxième fichier est <u>LaunchScreen.storyboard</u>, qui correspond au visuel de la vue de l'écran de chargement (la vue qui s'affiche dès qu'on lance l'application).<br>
+--> Deuxièmement, on a un dossier <b>OpenProf.xcdatamodel</b> contenant un fichier <u>content</u>. Ce dossier gère le Core Data Model. En programmation mobile, il est impératif de stocker des informations propres à chaque utilisateur dans une base de donnée directement intégrée au téléphone. En iOS, c'est le Core Data.
+Dans le fichier content, on retrouve, <b>comme en programmation web</b>, des tables de données : User qui stocke des valeurs comme le nom de l'utilisateur, Cards, qui stocke les cartes débloquées par l'utilisateur et leur nombre, etc.<br>
+--> Troisièmement, le dossier <b>OpenProf.xcodeproj</b>, qui contient les fichiers de configuration du projet qui héberge l'application.<br>
+--> Quatrièmement, on retrouve que des fichiers <b>.swift</b>. <h4>Ce sont les plus intéressants !</h4> Ils contiennent tous le code permettant de construire 
+les différentes focntionnalités de l'app OpenProf comme : la fonction de tirages aléatoires (randomNumber), gestion du nombre de cartes, ajout de gemmes au clique sur des boutons (Listeners), etc.
+Chaque fichier swift <b>représente une classe objet définissant la vue sur laquelle le code va s'appliquer</b>. Par exemple, le fichier StoreViewController définit la classe StoreViewController héritant de classes parentes indispensables (UIViewController), et qui est liée à la vue de la boutique. Elle va donc contenir l'ensemble des méthodes qui permettent de configurer les différentes fonctionnalités de la boutique. Pour ce qui est des autres classes : 
+<ul> 
+     <li><u>CardsViewController</u> : liée à la vue des cartes (collection de cartes), elle contient des méthodes permettant de communiquer avec la vue Accueil 
+          pour "écouter" si l'utilisateur a gardé la carte ou non, et compter le nombre.</li>
+     <li><u>LoginViewController</u> : liée à la vue de Login (la vue qui vient après le chargement, où l'on demande le pseudo de l'utilisateur, s'il a déjà été entré, l'input n'apparaît pas).</li>
+     <li><u>SaleViewController</u> :  encore en cours de développement (à cause de bugs inattendus), elle correspond à la vue "Marché" (bloquée dans le jeu pour le moment), permettant de vendre les cartes en échange de gems.</li>
+     <li>etc.</li>
 
 
+</ul>
 
 <h1>Les cartes</h1>
 Voici donc pour l'instant les cartes disponibles dans le jeu : <br>
