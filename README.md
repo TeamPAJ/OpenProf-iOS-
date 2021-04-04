@@ -43,7 +43,7 @@ Pour cela, il suffira de se rendre dans la branche user-OpenProf afin de télech
 Pour les développeurs, la branche dev-OpenProf contient l'ensemble des fichiers sources pour lancer OpenProf sur XCode
 
 
-<h1> Les focntionnalités </h1>
+<h1> Les fonctionnalités </h1>
 Voici donc une présentation plus précise de l'application, étape par étape, pour l'utilisation de l'application par un 
 nouvel utilisateur : 
 
