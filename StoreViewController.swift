@@ -16,7 +16,12 @@ class StoreViewController: UIViewController {
     @IBOutlet weak var loadingGem : UIActivityIndicatorView!
     @IBOutlet weak var pseudo : UILabel!
     @IBOutlet weak var gem : UILabel!
+    @IBOutlet weak var understandBtn : UIButton!
+    @IBOutlet weak var textMessage : UILabel!
+    @IBOutlet weak var gem300xButton : UIButton!
     
+    
+    // On crée le compteur qui s'activera quand on cliquera sur le bouton pour obtenir les gemmes
     let timeEnd = NSDate(timeInterval: 1*2*60, since: NSDate() as Date)
     
     override func viewDidLoad() {
@@ -43,10 +48,12 @@ class StoreViewController: UIViewController {
                             let results = try context.fetch(request)
                         if let user = results.first as? NSManagedObject {
                             user.setValue(money, forKey: "money")
+                            self.gem.text = String(money)
                             try context.save()
                         } else {
                             let moneySave = NSEntityDescription.insertNewObject(forEntityName: "User", into: context)
                             moneySave.setValue(money, forKey: "money")
+                            self.gem.text = String(money)
                             try context.save()
                         }
                     }catch{
@@ -70,6 +77,7 @@ class StoreViewController: UIViewController {
         let context = appDelegate.persistentContainer.viewContext
         self.linkMoney()
         self.linkPseudo()
+        self.syncSettings(activated: true)
         do{
             try context.save()
         }catch{
@@ -77,15 +85,6 @@ class StoreViewController: UIViewController {
         }
     }
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
     public func timeCountAnim(){
         // Date configuration
         
@@ -163,4 +162,38 @@ class StoreViewController: UIViewController {
         }
     }
 
+    @IBAction func get100gems(_ sender: UIButton){
+        //self.linkMoney()
+    }
+    
+    @IBAction func understandMessage(_ sender: UIButton){
+        self.understandBtn.isEnabled = false
+        self.textMessage.alpha = 0.6
+    }
+    
+    public func syncSettings(activated: Bool){
+        if activated == true{
+            let appDelegate = UIApplication.shared.delegate as! AppDelegate
+            let context = appDelegate.persistentContainer.viewContext
+            let request = NSFetchRequest<NSFetchRequestResult>(entityName: "Settings")
+            request.returnsObjectsAsFaults = false
+            do{
+                let settings = try context.fetch(request)
+                if(settings.count > 0){
+                    for settingLink in settings as! [NSManagedObject]{
+                        if settingLink.value(forKey: "payments") as? Bool == false{
+                            self.gem300xButton.setTitle("Bloqué", for: .normal)
+                            self.gem300xButton.isEnabled = false
+                        }
+                        else if settingLink.value(forKey: "payments") as? Bool == true{
+                            self.gem300xButton.isEnabled = true
+                        }
+                    }
+                }
+            }catch{
+                print("erreur lors de la synchronisation des paramètres")
+            }
+        }
+    }
+    
 }

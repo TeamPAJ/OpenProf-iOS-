@@ -24,6 +24,8 @@
 		6680266925D7D0920095B378 /* CardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6680266825D7D0920095B378 /* CardsViewController.swift */; };
 		669961D725F758C900386B6B /* PAJViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669961D625F758C900386B6B /* PAJViewController.swift */; };
 		669F6E112602024C0031917C /* SaleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669F6E102602024C0031917C /* SaleViewController.swift */; };
+		66E73E7E261B77DA0021737D /* DocViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E73E7D261B77DA0021737D /* DocViewController.swift */; };
+		66E73E83261B97590021737D /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E73E82261B97590021737D /* SettingsViewController.swift */; };
 		66EF9D7B25EBE9EB0023E948 /* MenuBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66EF9D7A25EBE9EB0023E948 /* MenuBarViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -68,6 +70,8 @@
 		6680266825D7D0920095B378 /* CardsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsViewController.swift; sourceTree = "<group>"; };
 		669961D625F758C900386B6B /* PAJViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PAJViewController.swift; sourceTree = "<group>"; };
 		669F6E102602024C0031917C /* SaleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaleViewController.swift; sourceTree = "<group>"; };
+		66E73E7D261B77DA0021737D /* DocViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocViewController.swift; sourceTree = "<group>"; };
+		66E73E82261B97590021737D /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		66EF9D7A25EBE9EB0023E948 /* MenuBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBarViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -136,6 +140,8 @@
 				669F6E102602024C0031917C /* SaleViewController.swift */,
 				6629C60526060920007859A7 /* ProfilViewController.swift */,
 				6665ACDD2617AAB000688AF2 /* LaunchScreenController.swift */,
+				66E73E7D261B77DA0021737D /* DocViewController.swift */,
+				66E73E82261B97590021737D /* SettingsViewController.swift */,
 			);
 			path = OpenProf;
 			sourceTree = "<group>";
@@ -297,6 +303,8 @@
 				669F6E112602024C0031917C /* SaleViewController.swift in Sources */,
 				6665ACDE2617AAB000688AF2 /* LaunchScreenController.swift in Sources */,
 				6680266925D7D0920095B378 /* CardsViewController.swift in Sources */,
+				66E73E7E261B77DA0021737D /* DocViewController.swift in Sources */,
+				66E73E83261B97590021737D /* SettingsViewController.swift in Sources */,
 				66231D2925EADF4A00FC70A6 /* LoginViewController.swift in Sources */,
 				66EF9D7B25EBE9EB0023E948 /* MenuBarViewController.swift in Sources */,
 				6680263125D71AB80095B378 /* AppDelegate.swift in Sources */,

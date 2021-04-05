@@ -7,8 +7,9 @@
 
 import UIKit
 import CoreData
+import WebKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController{
     // Variables et outlets
     @IBOutlet weak var circle : UIImageView!
     @IBOutlet weak var carteObtenue : UIImageView!
@@ -16,6 +17,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var caisseBouton : UIButton!
     @IBOutlet weak var obtenirCarte : UIButton!
     @IBOutlet weak var pseudo : UILabel!
+
     //@IBOutlet weak var chargementBouton : UIActivityIndicatorView!
     
     public var gaillardObtenu : Bool!
@@ -34,9 +36,10 @@ class ViewController: UIViewController {
     public var numberMaarouf : Int?
     public var numberSalaun : Int?
     public var numberGogueyToty : Int?
-    // Base
+    
+    
+    
     override func viewDidLoad() {
-        
         super.viewDidLoad()
         self.ArgentJoueur?.textColor = UIColor.darkGray
         self.pseudo?.textColor = UIColor.darkGray
@@ -548,5 +551,6 @@ class ViewController: UIViewController {
             print("erreur inconnue")
         }
     }
+    
 }
 

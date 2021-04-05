@@ -8,7 +8,7 @@
 import UIKit
 import CoreData
 
-class ProfilViewController: UIViewController {
+class ProfilViewController: UIViewController{
     
     @IBOutlet weak var nivMin : UILabel!
     @IBOutlet weak var nivMax : UILabel!
@@ -28,7 +28,7 @@ class ProfilViewController: UIViewController {
     public var niveau6Max : Int!
     public var niveau7Max : Int!
     
-    @IBOutlet weak var pseudoUserActual : UILabel!
+    @IBOutlet weak var pseudoUserActual : UILabel!    
     
     public var totalXP : Float!
     //@IBOutlet weak var pseudoProfil : UILabel!
