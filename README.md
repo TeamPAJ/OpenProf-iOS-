@@ -136,9 +136,9 @@ Voici donc pour l'instant les cartes disponibles dans le jeu : <br>
 
 # Nouveautés : les instructeurs !
 <p>
-     <img alt="" src="https://user-images.githubusercontent.com/73397915/113979986-42284480-9846-11eb-9419-7c526f89b503.png" width="80">
-     <img alt="" src="https://user-images.githubusercontent.com/73397915/113980088-5f5d1300-9846-11eb-9209-9db70ac40a2e.png" width="80">
-     <img alt="" src="https://user-images.githubusercontent.com/73397915/113980101-62580380-9846-11eb-97af-9bd7802e098d.png" width="80">
+     <img alt="" src="https://user-images.githubusercontent.com/73397915/113979986-42284480-9846-11eb-9419-7c526f89b503.png" width="140">
+     <img alt="" src="https://user-images.githubusercontent.com/73397915/113980088-5f5d1300-9846-11eb-9209-9db70ac40a2e.png" width="140">
+     <img alt="" src="https://user-images.githubusercontent.com/73397915/113980101-62580380-9846-11eb-97af-9bd7802e098d.png" width="140">
 </p>
 <i>Voir la section Combat (un peu plus bas) pour plus d'informations</i>
 
