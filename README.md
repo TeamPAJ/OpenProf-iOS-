@@ -1,4 +1,5 @@
-# OpenProf-iOS-
+# OpenProf iOS Version
+# Actuellement, OpenProf est disponible en version bêta sur App Store Connect x TestFlight
 
 <img width="114" alt="Capture d’écran 2021-04-01 à 22 11 48" src="https://user-images.githubusercontent.com/73397915/113351930-e0df0d80-933b-11eb-9798-eafd31df5232.png">
 Documentation officielle de l'application OpenProf
@@ -124,6 +125,8 @@ Comme expliqué précédemment, l'utilisateur a le choix entre garder (avec le b
 <h1>Easter Egg</h1>
 <p>Parmi les différentes fonctionnalités, certaines restent encore inconnues, avec des cartes secrètes. À vous de trouver un moyen de les débloquer !</p>
 
+<h1>Nouveautés</h1>
+<p></p>
 
 <h1>Patchs et bugs</h1>
 Il sera possible que, lors de l'utilisation de l'application, vous rencontriez un ou plusieurs bugs.
