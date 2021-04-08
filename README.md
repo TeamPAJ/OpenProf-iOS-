@@ -80,7 +80,7 @@ Dès que l'utilisateur n'a plus de gems, le bouton Obtenir devient automatiqueme
 <img width="210" alt="Capture d’écran 2021-04-08 à 08 34 31" src="https://user-images.githubusercontent.com/73397915/113979234-44d66a00-9845-11eb-8cff-0cf307afdeb3.png"><br>
 
 
-ÉTAPE 6 : La page Profil est disponible en cliquant sur la médaille (en haut à gauche sur la vue Accueil).
+ÉTAPE 6 : La page Profil est disponible en cliquant sur la médaille (en haut à gauche sur la vue Accueil).<br>
 <img width="210" alt="Capture d’écran 2021-04-08 à 08 32 32" src="https://user-images.githubusercontent.com/73397915/113979280-5455b300-9845-11eb-9a1a-2017e0a5254e.png"><br>
 
 ÉTAPE FACULTATIVE : Changer les paramètre encore en Beta
@@ -125,6 +125,22 @@ Voici donc pour l'instant les cartes disponibles dans le jeu : <br>
 <img alt="" src="https://user-images.githubusercontent.com/73397915/113458219-f4f53e80-9411-11eb-8f88-5a91548fb072.png" width="80">
 <img alt="" src="https://user-images.githubusercontent.com/73397915/113458223-f888c580-9411-11eb-9115-f139f33755cd.png" width="80">
 <img alt="" src="https://user-images.githubusercontent.com/73397915/113458229-fc1c4c80-9411-11eb-8362-21efb2287404.png" width="80"></p>
+# Nouvelles cartes : 
+<p>
+<img alt="" src="https://user-images.githubusercontent.com/73397915/113980446-cb3f7b80-9846-11eb-99b4-13f66f18bcf8.png" width="80">
+<img alt="" src="https://user-images.githubusercontent.com/73397915/113980474-d2ff2000-9846-11eb-84b3-ed2aa19ebf78.png" width="80">
+<img alt="" src="https://user-images.githubusercontent.com/73397915/113980459-ced30280-9846-11eb-98e9-dca9b3f3e138.png" width="80">
+<img alt="" src="https://user-images.githubusercontent.com/73397915/113980425-c67ac780-9846-11eb-8f92-394d74a3b7ac.png" width="80">
+</p>
+
+
+# Nouveautés : les instructeurs !
+<p>
+     <img alt="" src="https://user-images.githubusercontent.com/73397915/113979986-42284480-9846-11eb-9419-7c526f89b503.png" width="80">
+     <img alt="" src="https://user-images.githubusercontent.com/73397915/113980088-5f5d1300-9846-11eb-9209-9db70ac40a2e.png" width="80">
+     <img alt="" src="https://user-images.githubusercontent.com/73397915/113980101-62580380-9846-11eb-97af-9bd7802e098d.png" width="80">
+</p>
+<i>Voir la section Combat (un peu plus bas) pour plus d'informations</i>
 
 <h1>Collection de cartes</h1>
 Comme expliqué précédemment, l'utilisateur a le choix entre garder (avec le bouton "Obtenir") ou laisser (en cliquant une nouvelle fois sur le coffre) la carte ouverte. S'il la garde, il augmente automoatiquement sa collection de cartes.<br>
@@ -142,7 +158,7 @@ Comme expliqué précédemment, l'utilisateur a le choix entre garder (avec le b
 <p>En cliquant sur Commencer, vous entrez dans le monde hostile !<p>
 <img width="210" alt="Capture d’écran 2021-04-08 à 08 23 47" src="https://user-images.githubusercontent.com/73397915/113978588-68e57b80-9844-11eb-80b3-f7d502789885.png"><br>
 <p>Vous avez le choix entre 3 niveaux : Facile (disponible en bêta), Moyen et Difficiel (en développement actuellement)</p>
-<p>Chaque niveau correspond à l'affrontement contre un instructeur (il y a donc 3 instructeurs)</p>
+<p>Chaque niveau correspond à l'affrontement contre un instructeur (il y a donc 3 instructeurs). Les instructeurs vous permettent de débloquer de nouvelles cartes</p>
 <img width="210" alt="Capture d’écran 2021-04-08 à 08 23 58" src="https://user-images.githubusercontent.com/73397915/113978805-b366f800-9844-11eb-8f6c-73f5ccb3ac14.png"><br>
 <img width="210" alt="Capture d’écran 2021-04-08 à 08 24 09" src="https://user-images.githubusercontent.com/73397915/113978829-ba8e0600-9844-11eb-8ff7-a430d065c1ba.png"><br>
 
