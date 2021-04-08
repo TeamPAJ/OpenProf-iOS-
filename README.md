@@ -144,7 +144,7 @@ Voici donc pour l'instant les cartes disponibles dans le jeu : <br>
 
 <h1>Collection de cartes</h1>
 Comme expliqué précédemment, l'utilisateur a le choix entre garder (avec le bouton "Obtenir") ou laisser (en cliquant une nouvelle fois sur le coffre) la carte ouverte. S'il la garde, il augmente automoatiquement sa collection de cartes.<br>
-<img width="210" alt="Capture d’écran 2021-04-04 à 14 36 40" src="https://user-images.githubusercontent.com/73397915/113508946-2d506600-9553-11eb-9e33-6a0470dc7da3.png"><br>
+<img width="210" alt="Capture d’écran 2021-04-08 à 08 48 51" src="https://user-images.githubusercontent.com/73397915/113982801-7c471580-9849-11eb-94b1-3310684f742d.png"><br>
 
 <h1>Easter Egg</h1>
 <p>Parmi les différentes fonctionnalités, certaines restent encore inconnues, avec des cartes secrètes. À vous de trouver un moyen de les débloquer !</p>
