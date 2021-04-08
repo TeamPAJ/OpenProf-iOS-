@@ -32,7 +32,7 @@ En effet, l'utilisateur possède un certains nombre de gems.
 Pour pouvoir profiter de l'application, il y a certains prérequis :
 
  - Posséder un appareil fonctionnant sous l'OS d'Apple (iOS)
- - Posséder un modèle d'appareil au moins supérieur à l'iPhone X et +
+ - Posséder un modèle d'appareil compatible à la version beta : iPhone 8/8+/SE 
  - Si vous êtes développeur, le logiciel XCode est indispensable pour la gestion des bugs et des patchs
  - Si vous êtes développeur, il est préferable d'utiliser XCode / Swift dernière version sour Mac OS Big Sur
  - En cas de bugs, merci d'envoyer un retour à : teamPAJ.contact@gmail.com
@@ -49,7 +49,7 @@ Pour les développeurs, la branche dev-OpenProf contient l'ensemble des fichiers
 Voici donc une présentation plus précise de l'application, étape par étape, pour l'utilisation de l'application par un 
 nouvel utilisateur : 
 
-ÉTAPE 1 : L'utilisateur installe l'application sur son iPhone X (ou modèles supérieurs).<br>
+ÉTAPE 1 : L'utilisateur installe l'application sur son iPhone 8/8+/SE (ou modèles supérieurs).<br>
 <img width="210" alt="Capture d’écran 2021-04-02 à 23 41 55" src="https://user-images.githubusercontent.com/73397915/113456259-04be5400-940d-11eb-8bba-70f1089ea85c.png"><br>
 
 
