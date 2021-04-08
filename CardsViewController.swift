@@ -28,7 +28,7 @@ class CardsViewController: UIViewController, UITabBarControllerDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.initLabelCombo()
-        self.salaunNbLabel.tintColor = UIColor.darkGray
+        //self.salaunNbLabel.tintColor = UIColor.darkGray
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -44,7 +44,7 @@ class CardsViewController: UIViewController, UITabBarControllerDelegate {
                 if(results.count > 0){
                     for r in results as! [NSManagedObject]{
                         if r.value(forKey: "gaillard") as? Bool == true{
-                            self.gaillardCard.image = UIImage(named: "carte3.png")
+                            self.gaillardCard.image = UIImage(named: "carte2.png")
                             if ((r.value(forKey: "nbgaillard") as? Int) != nil){
                                 let nb = r.value(forKey: "nbgaillard") as! Int
                                 let nombreGaillard = String(r.value(forKey: "nbgaillard") as! Int)
@@ -53,7 +53,7 @@ class CardsViewController: UIViewController, UITabBarControllerDelegate {
                             }
                         }
                         if r.value(forKey: "goguey") as? Bool == true{
-                            self.gogueyCard.image = UIImage(named: "carte6bis.png")
+                            self.gogueyCard.image = UIImage(named: "carte5.png")
                             if ((r.value(forKey: "nbgoguey") as? Int) != nil){
                                 let nb = r.value(forKey: "nbgoguey") as! Int
                                 let nombreGoguey = String(r.value(forKey: "nbgoguey") as! Int)
@@ -62,7 +62,7 @@ class CardsViewController: UIViewController, UITabBarControllerDelegate {
                             }
                         }
                         if r.value(forKey: "muridi") as? Bool == true{
-                            self.muridiCard.image = UIImage(named: "carte7.png")
+                            self.muridiCard.image = UIImage(named: "carte6.png")
                             if ((r.value(forKey: "nbmuridi") as? Int) != nil){
                                 let nb = r.value(forKey: "nbmuridi") as! Int
                                 let nombreMuridi = String(r.value(forKey: "nbmuridi") as! Int)
@@ -72,7 +72,7 @@ class CardsViewController: UIViewController, UITabBarControllerDelegate {
                             
                         }
                         if r.value(forKey: "salaun") as? Bool == true{
-                            self.salaunCard.image = UIImage(named: "carte2.png")
+                            self.salaunCard.image = UIImage(named: "carte1.png")
                             if ((r.value(forKey: "nbsalaun") as? Int) != nil){
                                 let nb = r.value(forKey: "nbsalaun") as! Int
                                 let nombreSalaun = String(r.value(forKey: "nbsalaun") as! Int)
@@ -82,7 +82,7 @@ class CardsViewController: UIViewController, UITabBarControllerDelegate {
                             
                         }
                         if r.value(forKey: "maarouf") as? Bool == true{
-                            self.maaroufCard.image = UIImage(named: "carte.png")
+                            self.maaroufCard.image = UIImage(named: "carte0.png")
                             if ((r.value(forKey: "nbmaarouf") as? Int) != nil){
                                 let nb = r.value(forKey: "nbmaarouf") as! Int
                                 let nombreMaarouf = String(r.value(forKey: "nbmaarouf") as! Int)
@@ -92,7 +92,7 @@ class CardsViewController: UIViewController, UITabBarControllerDelegate {
                             
                         }
                         if r.value(forKey: "gogueyToty") as? Bool == true{
-                            self.gogueyCardBis.image = UIImage(named: "carte6.png")
+                            self.gogueyCardBis.image = UIImage(named: "carte3.png")
                             if ((r.value(forKey: "nbgogueyToty") as? Int) != nil){
                                 let nb = r.value(forKey: "nbgogueyToty") as! Int
                                 let nombreGogueyToty = String(r.value(forKey: "nbgogueyToty") as! Int)

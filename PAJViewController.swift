@@ -27,8 +27,8 @@ class PAJViewController: UIViewController {
                 if(results.count > 0){
                     for r in results as! [NSManagedObject]{
                         if r.value(forKey: "paj") as? Bool == true{
-                            self.imagePAJ.image = UIImage(named: "linux.png")
-                            self.obtenuPAJ.text = "Obtenu avec succès !"
+                            self.imagePAJ.image = UIImage(named: "carte7.png")
+                            //self.obtenuPAJ.text = "Obtenu avec succès !"
                         }
                     }
                 }

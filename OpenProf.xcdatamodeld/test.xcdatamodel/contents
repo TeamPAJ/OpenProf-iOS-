@@ -15,6 +15,15 @@
         <attribute name="paj" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
         <attribute name="salaun" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
     </entity>
+    <entity name="Fights" representedClassName="Fights" syncable="YES" codeGenerationType="class">
+        <attribute name="cardonWin" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="lbathWin" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="level1Validate" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="level2Validate" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="level3Validate" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="monseigneurWin" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="vlestidWin" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+    </entity>
     <entity name="Settings" representedClassName="Settings" syncable="YES" codeGenerationType="class">
         <attribute name="externalLinks" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
         <attribute name="payments" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
@@ -27,7 +36,8 @@
     </entity>
     <elements>
         <element name="Cards" positionX="-63" positionY="9" width="128" height="224"/>
-        <element name="User" positionX="-63" positionY="-18" width="128" height="89"/>
+        <element name="Fights" positionX="-63" positionY="90" width="128" height="134"/>
         <element name="Settings" positionX="-63" positionY="90" width="128" height="59"/>
+        <element name="User" positionX="-63" positionY="-18" width="128" height="89"/>
     </elements>
 </model>

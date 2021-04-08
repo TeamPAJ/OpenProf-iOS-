@@ -147,7 +147,7 @@ class ViewController: UIViewController{
         
         switch x {
         case 0:
-            self.carteObtenue.image = UIImage(named:"carte3.png")
+            self.carteObtenue.image = UIImage(named:"carte2.png")
             
             self.carteActuelleStockee = "gaillard"
             if(argentUser != 0){
@@ -166,7 +166,7 @@ class ViewController: UIViewController{
             let y = randomNumber(probabilities: [0.5,0.5])
             switch y {
             case 0:
-                self.carteObtenue.image = UIImage(named:"carte6bis.png")
+                self.carteObtenue.image = UIImage(named:"carte5.png")
                 self.carteActuelleStockee = "goguey"
                 if(argentUser != 0){
                     self.gogueyObtenu = true
@@ -180,7 +180,7 @@ class ViewController: UIViewController{
                     self.obtenirCarte.setTitle("Boutique", for: .normal)
                 }
             case 1:
-                self.carteObtenue.image = UIImage(named:"carte7.png")
+                self.carteObtenue.image = UIImage(named:"carte6.png")
                 self.carteActuelleStockee = "muridi"
                 if(argentUser != 0){
                     self.muridiObtenu = true
@@ -202,7 +202,7 @@ class ViewController: UIViewController{
             let z = randomNumber(probabilities: [0.6,0.4])
             switch z {
             case 0:
-                self.carteObtenue.image = UIImage(named:"carte.png")
+                self.carteObtenue.image = UIImage(named:"carte0.png")
                 self.carteActuelleStockee = "maarouf"
                 if(argentUser != 0){
                     self.ArgentJoueur?.text = String(argentUser ?? 0)
@@ -218,7 +218,7 @@ class ViewController: UIViewController{
                 }
                 break
             case 1:
-                self.carteObtenue.image = UIImage(named:"carte2.png")
+                self.carteObtenue.image = UIImage(named:"carte1.png")
                 self.carteActuelleStockee = "salaun"
                 if(argentUser != 0){
                     self.ArgentJoueur?.text = String(argentUser ?? 0)
@@ -237,7 +237,7 @@ class ViewController: UIViewController{
                 
             }
         case 3:
-            self.carteObtenue.image = UIImage(named:"carte6.png")
+            self.carteObtenue.image = UIImage(named:"carte3.png")
             self.carteActuelleStockee = "gogueyToty"
             if(argentUser != 0){
                 self.gogueyToty = true

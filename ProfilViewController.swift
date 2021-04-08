@@ -14,6 +14,10 @@ class ProfilViewController: UIViewController{
     @IBOutlet weak var nivMax : UILabel!
     @IBOutlet weak var niveauProgression : UIProgressView!
     
+    @IBOutlet weak var trophy1Available : UIImageView!
+    @IBOutlet weak var trophy2Available : UIImageView!
+    @IBOutlet weak var trophy3Available : UIImageView!
+    
     public var xpCommune : Int!
     public var xpRare : Int!
     public var xpEpic : Int!
@@ -29,6 +33,7 @@ class ProfilViewController: UIViewController{
     public var niveau7Max : Int!
     
     @IBOutlet weak var pseudoUserActual : UILabel!    
+    @IBOutlet weak var infoButton : UIButton!
     
     public var totalXP : Float!
     //@IBOutlet weak var pseudoProfil : UILabel!
@@ -41,8 +46,9 @@ class ProfilViewController: UIViewController{
         self.xpEpic = Int(0.3);
         self.xpLegendaire = Int(0.5);
         
-        //self.nivMin.text = "nv.0"
-        //self.nivMax.text = "nv.1"
+        self.nivMin.text = "nv.MAX"
+        self.nivMax.text = ""
+        self.niveauProgression.progress = 1.0
         
         self.PickAndPrintPseudoActual()
         // Do any additional setup after loading the view.
@@ -52,6 +58,8 @@ class ProfilViewController: UIViewController{
         // Code
         //self.pseudoInit()
         self.xpSystemUser()
+        self.syncInfoLink(activated: true)
+        self.syncTrophy()
     }
     
     public func xpSystemUser(){
@@ -161,6 +169,52 @@ class ProfilViewController: UIViewController{
             }
         }catch{
             print("Error Core Data")
+        }
+    }
+    
+    public func syncInfoLink(activated: Bool){
+        if activated == true{
+            let appDelegate = UIApplication.shared.delegate as! AppDelegate
+            let context = appDelegate.persistentContainer.viewContext
+            let request = NSFetchRequest<NSFetchRequestResult>(entityName: "Settings")
+            _ = NSEntityDescription.insertNewObject(forEntityName: "Settings", into: context)
+            request.returnsObjectsAsFaults = false
+            do{
+                let settings = try context.fetch(request)
+                if(settings.count > 0){
+                    if let link = settings.first as? NSManagedObject{
+                        if link.value(forKey: "externalLinks") as? Bool == false{
+                            self.infoButton.isHidden = true
+                        }
+                        else {
+                            self.infoButton.isHidden = false
+                        }
+                    }
+                }
+            }catch{
+                print("erreur lors de la synchronisation des paramètres")
+            }
+        }
+    }
+    
+    private func syncTrophy(){
+        let appDelegate = UIApplication.shared.delegate as! AppDelegate
+        let context = appDelegate.persistentContainer.viewContext
+        let request = NSFetchRequest<NSFetchRequestResult>(entityName: "Fights")
+        _ = NSEntityDescription.insertNewObject(forEntityName: "Fights", into: context)
+        request.returnsObjectsAsFaults = false
+        do{
+            let settings = try context.fetch(request)
+            if(settings.count > 0){
+                for trophy in settings as! [NSManagedObject]{
+                    if trophy.value(forKey: "level1Validate") as? Bool == true{
+                        self.trophy1Available.image = UIImage(named: "ok")
+                    }
+
+                }
+            }
+        }catch{
+            print("erreur")
         }
     }
 }

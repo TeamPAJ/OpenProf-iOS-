@@ -27,6 +27,7 @@ class StoreViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.loadingGem.isHidden = true
+        self.syncSettings(activated: true)
         // Do any additional setup after loading the view.
     }
     
@@ -168,7 +169,7 @@ class StoreViewController: UIViewController {
     
     @IBAction func understandMessage(_ sender: UIButton){
         self.understandBtn.isEnabled = false
-        self.textMessage.alpha = 0.6
+        self.textMessage.tintColor = UIColor.green
     }
     
     public func syncSettings(activated: Bool){
@@ -187,6 +188,7 @@ class StoreViewController: UIViewController {
                         }
                         else if settingLink.value(forKey: "payments") as? Bool == true{
                             self.gem300xButton.isEnabled = true
+                            self.gem300xButton.setTitle("5,99€", for: .normal)
                         }
                     }
                 }
