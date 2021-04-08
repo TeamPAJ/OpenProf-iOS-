@@ -160,8 +160,20 @@ Comme expliqué précédemment, l'utilisateur a le choix entre garder (avec le b
 <p>Vous avez le choix entre 3 niveaux : Facile (disponible en bêta), Moyen et Difficiel (en développement actuellement)</p>
 <p>Chaque niveau correspond à l'affrontement contre un instructeur (il y a donc 3 instructeurs). Les instructeurs vous permettent de débloquer de nouvelles cartes</p>
 <img width="210" alt="Capture d’écran 2021-04-08 à 08 23 58" src="https://user-images.githubusercontent.com/73397915/113978805-b366f800-9844-11eb-8f6c-73f5ccb3ac14.png"><br>
+<p>Voici la liste des cartes que vous pouvez utiliser pour combattre l'instructeur. Dans la version Beta, toutes les cartes sont disponibles pour les tests et recherche de bugs</p>
 <img width="210" alt="Capture d’écran 2021-04-08 à 08 24 09" src="https://user-images.githubusercontent.com/73397915/113978829-ba8e0600-9844-11eb-8ff7-a430d065c1ba.png"><br>
-
+En cliquant sur un personnage, l'utilisateur se confronte enfin à l'instructeur. Pour information, le niveau Facile est lié à l'instructeur Fab, le niveau moyen à l'instructeur Lecourt, et le niveau difficile l'instructrice "Tisse Yeah".
+Pour remporter votre combat contre l'instructeur, il faut détruire la carte avant que celui-ci détruise la vôtre. 
+Plus le niveau est difficile, plus l'instructeur sera coriace. Alors choisissez bien votre carte avant de le combattre.
+Si l'une des cartes est KO (voir la barre de vie en dessous de la carte), le combat est automatiquement stoppé !<br>
+<p>
+<img width="210" alt="Capture d’écran 2021-04-08 à 08 51 17" src="https://user-images.githubusercontent.com/73397915/113982247-cf6c9880-9848-11eb-8530-2ad08d019c55.png"><br>
+Carte de l'instructeur : <br>
+<img width="149" alt="Capture d’écran 2021-04-08 à 08 51 35" src="https://user-images.githubusercontent.com/73397915/113982438-0c388f80-9849-11eb-86ba-2012e648c1ff.png"><br>
+Carte de l'utilisateur : <br>
+<img width="138" alt="Capture d’écran 2021-04-08 à 08 51 39" src="https://user-images.githubusercontent.com/73397915/113982452-1064ad00-9849-11eb-9779-06338e60d323.png"><br>
+Fin de la partie : <br>
+<img width="210" alt="Capture d’écran 2021-04-08 à 08 51 50" src="https://user-images.githubusercontent.com/73397915/113982217-c7145d80-9848-11eb-87b4-ee473e4f657a.png"><br>
 
 
 
