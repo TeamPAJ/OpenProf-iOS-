@@ -125,8 +125,21 @@ Comme expliqué précédemment, l'utilisateur a le choix entre garder (avec le b
 <h1>Easter Egg</h1>
 <p>Parmi les différentes fonctionnalités, certaines restent encore inconnues, avec des cartes secrètes. À vous de trouver un moyen de les débloquer !</p>
 
-<h1>Nouveautés</h1>
-<p></p>
+# Nouveautés
+<h1>Les combats</h1>
+<p>Découvrez les combats et confrontez-vous aux trois premiers adversaires de l'application !<p>
+<p>Pour commencer, rendez-vous dans l'onglet <u>Combat</u> (dernier onglet à droite), et vous devriez avoir cette vue</p>
+<img width="210" alt="Capture d’écran 2021-04-08 à 08 23 37" src="https://user-images.githubusercontent.com/73397915/113978413-363b8300-9844-11eb-937a-fa13c96f2981.png">
+
+<p>En cliquant sur Commencer, vous entrez dans le monde hostile !<p>
+<img width="210" alt="Capture d’écran 2021-04-08 à 08 23 47" src="https://user-images.githubusercontent.com/73397915/113978588-68e57b80-9844-11eb-80b3-f7d502789885.png"><br>
+<p>Vous avez le choix entre 3 niveaux : Facile (disponible en bêta), Moyen et Difficiel (en développement actuellement)</p>
+<p>Chaque niveau correspond à l'affrontement contre un instructeur (il y a donc 3 instructeurs)</p>
+<img width="210" alt="Capture d’écran 2021-04-08 à 08 23 58" src="https://user-images.githubusercontent.com/73397915/113978805-b366f800-9844-11eb-8f6c-73f5ccb3ac14.png"><br>
+<img width="210" alt="Capture d’écran 2021-04-08 à 08 24 09" src="https://user-images.githubusercontent.com/73397915/113978829-ba8e0600-9844-11eb-8ff7-a430d065c1ba.png"><br>
+
+
+
 
 <h1>Patchs et bugs</h1>
 Il sera possible que, lors de l'utilisation de l'application, vous rencontriez un ou plusieurs bugs.
