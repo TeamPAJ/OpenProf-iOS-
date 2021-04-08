@@ -72,15 +72,23 @@ En cliquant sur le bouton "Gratuit", l'utilisateur obtient les gems gratuits qui
 ÉTAPE 5 : Après être passé par la boutique, il va arriver sur la page "principale" de l'application OpenProf. En effet, c'est ici qu'on retrouve les principales informations : nom d'utilisateur, nombre de gems, carte obtenue après avoir cliquée sur la caisse, système d'obtention de carte avec sauvegarde. C'est donc ici que l'opening ( = ouverture) de coffres va se faire. Pour info, 1 coffre =  2gems consommés. À chaque clic sur la caisse, un algorithme de probabilité est lancé pour déterminer la récompense du joueur. <b>Plus la carte est rare, plus le joueur gagne de l'XP</b>
 <h3>Le coffre côute 2 gems, et, à chaque ouverture de coffre, si l'utilisateur décide de garder la carte (avec le bouton "Obtenir"), il gagne de l'XP, suivant la rareté de la carte !</h3>
 <br>
-<img width="210" alt="Capture d’écran 2021-04-04 à 14 18 43" src="https://user-images.githubusercontent.com/73397915/113508504-ad290100-9550-11eb-97d9-7c34e861fa93.png">
+<img width="210" alt="Capture d’écran 2021-04-08 à 08 32 54" src="https://user-images.githubusercontent.com/73397915/113979150-2e301300-9845-11eb-8af3-2e86789ea303.png"><br>
+
 <br>
 
 Dès que l'utilisateur n'a plus de gems, le bouton Obtenir devient automatiquement un bouton "Boutique" et l'achat de coffre devient impossible.<br>
-<img width="210" alt="Capture d’écran 2021-04-03 à 00 08 31" src="https://user-images.githubusercontent.com/73397915/113457702-bf038a80-9410-11eb-9ae4-0a812ecded4a.png"><br>
+<img width="210" alt="Capture d’écran 2021-04-08 à 08 34 31" src="https://user-images.githubusercontent.com/73397915/113979234-44d66a00-9845-11eb-8cff-0cf307afdeb3.png"><br>
+
 
 ÉTAPE 6 : La page Profil est disponible en cliquant sur la médaille (en haut à gauche sur la vue Accueil).
-Cette page permet à l'utilisateur de garder un oeil sur son niveau.!<br>
-<img width="210" alt="Capture d’écran 2021-04-04 à 14 27 38" src="https://user-images.githubusercontent.com/73397915/113508736-ea41c300-9551-11eb-8bcf-3015f8113db2.png"><br>
+<img width="210" alt="Capture d’écran 2021-04-08 à 08 32 32" src="https://user-images.githubusercontent.com/73397915/113979280-5455b300-9845-11eb-9a1a-2017e0a5254e.png"><br>
+
+ÉTAPE FACULTATIVE : Changer les paramètre encore en Beta
+<p>En cliquant sur le switch des paiements, les paiements dans l'application sont automatiquement bloqués !</p>
+<img width="210" alt="Capture d’écran 2021-04-08 à 08 32 21" src="https://user-images.githubusercontent.com/73397915/113979420-80713400-9845-11eb-9a73-51662e57a57c.png"><br>
+<img width="156" alt="Capture d’écran 2021-04-08 à 08 38 11" src="https://user-images.githubusercontent.com/73397915/113979618-c201df00-9845-11eb-8178-31d6be3fd963.png"><br>
+<p>Les paramètres de langue et liens externes, sont actuellement indisponibles, car des bugs ont été remarqués sur le comportement de ces paramètres (notamment sur la sauvegarde)</p>
+<br>
 
 
 <h1>Pour les développeurs</h1>
