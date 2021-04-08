@@ -174,9 +174,19 @@ Carte de l'utilisateur : <br>
 <img width="138" alt="Capture d’écran 2021-04-08 à 08 51 39" src="https://user-images.githubusercontent.com/73397915/113982452-1064ad00-9849-11eb-9779-06338e60d323.png"><br>
 Fin de la partie : <br>
 <img width="210" alt="Capture d’écran 2021-04-08 à 08 51 50" src="https://user-images.githubusercontent.com/73397915/113982217-c7145d80-9848-11eb-87b4-ee473e4f657a.png"><br>
+     En appuyant sur <b>"S'en aller</b>, cela retourne sur la vue des choix de niveaux, tout en enregistrant les données de l'utilisateur (s'il a gagné ou non).
+     S'il a gagné, il peut aller sur son profil pour voir apparaître son 1er trophée !<br>
+     <img width="200" alt="Capture d’écran 2021-04-08 à 09 09 19" src="https://user-images.githubusercontent.com/73397915/113983358-1ad37680-984a-11eb-946b-44ca3cf1155f.png">
 
-
-
+# Prochaines MAJ 
+<p> Voici une liste des changements prévus pour les prochaines mises à jour, qui seront disponibles sur TestFlight et l'App Store Connect dans la version Beta : 
+     <ul>
+          <li>Seuls les cartes débloquées par l'utilisateur seront utilisables lors des combats</li>
+          <li>Nouvelle fonctionnalité : Enchères. L'utilisateur pourra vendre ses cartes en excès contre des gemmes.</li>
+          <li>Intégration du Apple Game Center pour pouvoir défier ces amis et les ajouter</li>
+          <li>Ajout de notifications lorsque l'utilisateur peut combattre ou lorsqu'il peut ouvrir des caisses</li>
+          <li>Ajout d'une nouvelle caisse avec un design différent, avec des probabilités plus intéressantes et de nouveaux items</li>
+     </ul>
 <h1>Patchs et bugs</h1>
 Il sera possible que, lors de l'utilisation de l'application, vous rencontriez un ou plusieurs bugs.
 Tout au long du développement de l'application, nous avons établie une liste de bugs
