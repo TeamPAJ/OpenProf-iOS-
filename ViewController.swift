@@ -8,8 +8,10 @@
 import UIKit
 import CoreData
 import WebKit
+import GameKit
 
 class ViewController: UIViewController{
+
     // Variables et outlets
     @IBOutlet weak var circle : UIImageView!
     @IBOutlet weak var carteObtenue : UIImageView!
@@ -17,6 +19,7 @@ class ViewController: UIViewController{
     @IBOutlet weak var caisseBouton : UIButton!
     @IBOutlet weak var obtenirCarte : UIButton!
     @IBOutlet weak var pseudo : UILabel!
+
 
     //@IBOutlet weak var chargementBouton : UIActivityIndicatorView!
     
@@ -36,8 +39,6 @@ class ViewController: UIViewController{
     public var numberMaarouf : Int?
     public var numberSalaun : Int?
     public var numberGogueyToty : Int?
-    
-    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -78,6 +79,7 @@ class ViewController: UIViewController{
         
     }
     
+   
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         self.easterEgg1()
